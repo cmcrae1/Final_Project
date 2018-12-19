@@ -1,0 +1,87 @@
+What I plan on doing for my final project is to look at several events that have
+caused a diaspora of people to flee their country. I would like to analyze the
+number of people as well as where these people went to once they became refugees.
+My question will be something along the lines of "which causes more refugees,
+political instability or conflict and war.  I can find my data here at
+
+https://www.arcgis.com/home/item.html?id=fd2b56ac31ea45fea59a6d4cd86c7cce
+
+I would like to incorporate Moran's I as well as a 3-d map, and a hexagonal grid
+analysis. Something that we haven't used in class, but something I would like to
+use on the project, is the use of large arrows to visually represent where the
+migrants are fleeing to. The number of migrants leaving a country will be
+displayed by color, but where they are going will be a separate issue. I choose
+arrows because it's an easy way to visually show the reader in a concise way
+where the migrants are fleeing to. I feel as though this is more involved than
+the lab, because projects like this can have farther reaching implications,
+and could actually change people's lives. Something that I learned when doing
+preliminary research and something that surprised me greatly, was the sheer
+number of people fleeing, as well as how dispersed they ended up being. It was
+my assumption that 90% of them were on similar paths, but that couldn't be
+farther from the truth.
+
+I started this project by looking at the Syrian Refugee Crisis. I found data on
+the number of people leaving, as well as where these people were crossing the
+border and setting up camp. This data came from the website I previously
+mentioned. I created two separate heatmaps of the crossings as
+well as where the campsites are. On top of that I created a shapefile to show
+where people that are refugees are going to. I found that  over 60% of refugees
+ended up in countries that immediately bordered Syria, unsurprisingly. These
+countries are Lebanon, Turkey, Jordan, and Iraq. Once I had the shapefile
+showing where people were ending up, I created a base-map of the whole world,
+displayed by a light gray. I also lightened the borders of the countries who
+had less than 1000 refugee entries to focus attention to the countries that were
+taking a lot of refugees. For this map I also created a hex-grid analysis. I did
+this by going to MMQGIS and creating a grid layer. I selected relatively large
+hexs as we are looking at the scale of the whole planet and anything smaller
+would've taken this computer ages to create. Once that was created I needed to
+go to Vector-Analysis tool-Count points in polygon, in order to fill in the
+hexagons. At the end I choose to label the countries where more than 1000
+people ended up.
+
+For my second map I looked at the similar, but still different, Afghani Refugee
+Crisis. I used the same base-map for this one as in the previous map. I obviously
+changed the numbers for the amount of people leaving, but left everything else
+constant. Similarly to the Syrian crisis, many of the people who left ended up
+in the countries and provinces that border the country they left from. These
+include Pakistan, Iran, and Tajikistan, with India being included on there, but
+technically not bordering Afghanistan. For this map I choose to add an elevation
+map underneath the visible data. In order to do this I needed to download world
+elevation data, that I found at ASTER website. Once I had the data I added it
+to my map and created a hill-shade shapefile which would help give me a 3-d look.
+From there I changed the style of the original elevation model in order to make
+elevation features stand out. I then made the original shapefile showing where
+people were going more transparent so the reader could see the elevation under
+the readable data.
+
+My last map focused on the South Sudanese Refugee Crisis, which was very distinct
+from the other two crisis. I did a similar process of bringing in the world
+shapefile, and then entering the data for where people ended up. In this map,
+many still ended up in countries immediately surrounding South Sudan, but almost
+no expansion elsewhere. The only places with received over 1000 refugees were in
+the direct vicinity of South Sudan. These include Sudan, Ethiopia, Uganda, Kenya,
+The Democratic Republic of the Congo, and Egypt. For this map I decided to finish
+off this project by creating a drop shadow of the entire Earth. The data on the
+number of people leaving South Sudan as well as Afghanistan came from the UNHCR,
+which is the United Nations branch that deals specifically with refugees. I believe
+all data came from the time period from 2012-2015.
+
+I ended up running heatmaps, 3d elevation maps, drop shadows, and one hex grid
+analysis of Syria.
+
+In my maps red denotes a high number of people came to this country while green
+denotes between 1000-30000 people ended up there. For the elevation maps black is
+high elevation an white is low elevation. For the heatmap blue represents a high
+density of migrants and red represents fewer migrants.
+
+My findings were interesting but not unexpected. For all three most of the people
+who fled ended up in neighboring countries. This makes sense as most are travelling
+by foot, at first, and this means that many people will only be able to get so
+far before becoming exhausted. I was shocked by the sheer number of people who
+stayed in Turkey, or Pakistan for example. Both individually had more than 2
+million displaced people. Afghanistan and Syria also saw major immigration to
+Europe in countries such as Germany and England. Some refugees also ended up in
+North and South America as well as Russia. Oddly enough South Sudan did not have
+any significant immigration to anywhere outside of Africa. (Significant = x>1000)
+Even within Africa refugees only went within a small area. the only country not
+bordering South Sudan to receive refugees was Egypt.
